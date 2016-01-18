@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9025C0C1C4D361F00E40485 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9025C0B1C4D361F00E40485 /* AppDelegate.m */; };
+		C9025C0F1C4D361F00E40485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9025C0E1C4D361F00E40485 /* main.m */; };
+		C9025C111C4D361F00E40485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9025C101C4D361F00E40485 /* Assets.xcassets */; };
+		C9025C141C4D361F00E40485 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9025C121C4D361F00E40485 /* MainMenu.xib */; };
+		C9025C271C4D3C4400E40485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9025C261C4D3C4400E40485 /* main.m */; };
+		C9025C2C1C4D4FB700E40485 /* dice.zorq in Resources */ = {isa = PBXBuildFile; fileRef = C9025C2B1C4D4FB700E40485 /* dice.zorq */; };
+		C9025C521C4D5A3700E40485 /* MyApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = C9025C511C4D5A3700E40485 /* MyApplication.m */; };
+		C9025C581C4D68D500E40485 /* IMZorqImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = C9025C571C4D68D500E40485 /* IMZorqImageRep.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9025C221C4D3C4400E40485 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9025C071C4D361F00E40485 /* CustomImageRep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomImageRep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9025C0A1C4D361F00E40485 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9025C0B1C4D361F00E40485 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9025C0E1C4D361F00E40485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9025C101C4D361F00E40485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9025C131C4D361F00E40485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9025C151C4D361F00E40485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9025C241C4D3C4400E40485 /* zorqconvert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zorqconvert; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9025C261C4D3C4400E40485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9025C2B1C4D4FB700E40485 /* dice.zorq */ = {isa = PBXFileReference; lastKnownFileType = file; name = dice.zorq; path = ../../../../Desktop/dice.zorq; sourceTree = "<group>"; };
+		C9025C501C4D5A3700E40485 /* MyApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyApplication.h; sourceTree = "<group>"; };
+		C9025C511C4D5A3700E40485 /* MyApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyApplication.m; sourceTree = "<group>"; };
+		C9025C561C4D68D500E40485 /* IMZorqImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMZorqImageRep.h; sourceTree = "<group>"; };
+		C9025C571C4D68D500E40485 /* IMZorqImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMZorqImageRep.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9025C041C4D361F00E40485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9025C211C4D3C4400E40485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9025BFE1C4D361F00E40485 = {
+			isa = PBXGroup;
+			children = (
+				C9025C091C4D361F00E40485 /* CustomImageRep */,
+				C9025C251C4D3C4400E40485 /* zorqconvert */,
+				C9025C081C4D361F00E40485 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9025C081C4D361F00E40485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9025C071C4D361F00E40485 /* CustomImageRep.app */,
+				C9025C241C4D3C4400E40485 /* zorqconvert */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9025C091C4D361F00E40485 /* CustomImageRep */ = {
+			isa = PBXGroup;
+			children = (
+				C9025C561C4D68D500E40485 /* IMZorqImageRep.h */,
+				C9025C571C4D68D500E40485 /* IMZorqImageRep.m */,
+				C9025C2B1C4D4FB700E40485 /* dice.zorq */,
+				C9025C0A1C4D361F00E40485 /* AppDelegate.h */,
+				C9025C0B1C4D361F00E40485 /* AppDelegate.m */,
+				C9025C501C4D5A3700E40485 /* MyApplication.h */,
+				C9025C511C4D5A3700E40485 /* MyApplication.m */,
+				C9025C101C4D361F00E40485 /* Assets.xcassets */,
+				C9025C121C4D361F00E40485 /* MainMenu.xib */,
+				C9025C151C4D361F00E40485 /* Info.plist */,
+				C9025C0D1C4D361F00E40485 /* Supporting Files */,
+			);
+			path = CustomImageRep;
+			sourceTree = "<group>";
+		};
+		C9025C0D1C4D361F00E40485 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9025C0E1C4D361F00E40485 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9025C251C4D3C4400E40485 /* zorqconvert */ = {
+			isa = PBXGroup;
+			children = (
+				C9025C261C4D3C4400E40485 /* main.m */,
+			);
+			path = zorqconvert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9025C061C4D361F00E40485 /* CustomImageRep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9025C181C4D361F00E40485 /* Build configuration list for PBXNativeTarget "CustomImageRep" */;
+			buildPhases = (
+				C9025C031C4D361F00E40485 /* Sources */,
+				C9025C041C4D361F00E40485 /* Frameworks */,
+				C9025C051C4D361F00E40485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomImageRep;
+			productName = CustomImageRep;
+			productReference = C9025C071C4D361F00E40485 /* CustomImageRep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9025C231C4D3C4400E40485 /* zorqconvert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9025C281C4D3C4400E40485 /* Build configuration list for PBXNativeTarget "zorqconvert" */;
+			buildPhases = (
+				C9025C201C4D3C4400E40485 /* Sources */,
+				C9025C211C4D3C4400E40485 /* Frameworks */,
+				C9025C221C4D3C4400E40485 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zorqconvert;
+			productName = zorqconvert;
+			productReference = C9025C241C4D3C4400E40485 /* zorqconvert */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9025BFF1C4D361F00E40485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Impending;
+				TargetAttributes = {
+					C9025C061C4D361F00E40485 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C9025C231C4D3C4400E40485 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C9025C021C4D361F00E40485 /* Build configuration list for PBXProject "CustomImageRep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9025BFE1C4D361F00E40485;
+			productRefGroup = C9025C081C4D361F00E40485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9025C061C4D361F00E40485 /* CustomImageRep */,
+				C9025C231C4D3C4400E40485 /* zorqconvert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9025C051C4D361F00E40485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9025C111C4D361F00E40485 /* Assets.xcassets in Resources */,
+				C9025C2C1C4D4FB700E40485 /* dice.zorq in Resources */,
+				C9025C141C4D361F00E40485 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9025C031C4D361F00E40485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9025C521C4D5A3700E40485 /* MyApplication.m in Sources */,
+				C9025C0F1C4D361F00E40485 /* main.m in Sources */,
+				C9025C0C1C4D361F00E40485 /* AppDelegate.m in Sources */,
+				C9025C581C4D68D500E40485 /* IMZorqImageRep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9025C201C4D3C4400E40485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9025C271C4D3C4400E40485 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9025C121C4D361F00E40485 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9025C131C4D361F00E40485 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9025C161C4D361F00E40485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9025C171C4D361F00E40485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9025C191C4D361F00E40485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CustomImageRep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.impending.CustomImageRep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9025C1A1C4D361F00E40485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CustomImageRep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.impending.CustomImageRep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9025C291C4D3C4400E40485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9025C2A1C4D3C4400E40485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9025C021C4D361F00E40485 /* Build configuration list for PBXProject "CustomImageRep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9025C161C4D361F00E40485 /* Debug */,
+				C9025C171C4D361F00E40485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9025C181C4D361F00E40485 /* Build configuration list for PBXNativeTarget "CustomImageRep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9025C191C4D361F00E40485 /* Debug */,
+				C9025C1A1C4D361F00E40485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9025C281C4D3C4400E40485 /* Build configuration list for PBXNativeTarget "zorqconvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9025C291C4D3C4400E40485 /* Debug */,
+				C9025C2A1C4D3C4400E40485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9025BFF1C4D361F00E40485 /* Project object */;
+}
