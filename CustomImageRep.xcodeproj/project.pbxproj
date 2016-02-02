@@ -12,9 +12,9 @@
 		C9025C111C4D361F00E40485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9025C101C4D361F00E40485 /* Assets.xcassets */; };
 		C9025C141C4D361F00E40485 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9025C121C4D361F00E40485 /* MainMenu.xib */; };
 		C9025C271C4D3C4400E40485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9025C261C4D3C4400E40485 /* main.m */; };
-		C9025C2C1C4D4FB700E40485 /* dice.zorq in Resources */ = {isa = PBXBuildFile; fileRef = C9025C2B1C4D4FB700E40485 /* dice.zorq */; };
 		C9025C521C4D5A3700E40485 /* MyApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = C9025C511C4D5A3700E40485 /* MyApplication.m */; };
 		C9025C581C4D68D500E40485 /* IMZorqImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = C9025C571C4D68D500E40485 /* IMZorqImageRep.m */; };
+		C9C444821C60A21200B0962C /* dice.zorq in Resources */ = {isa = PBXBuildFile; fileRef = C9C444811C60A21200B0962C /* dice.zorq */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,11 +39,11 @@
 		C9025C151C4D361F00E40485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9025C241C4D3C4400E40485 /* zorqconvert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zorqconvert; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9025C261C4D3C4400E40485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C9025C2B1C4D4FB700E40485 /* dice.zorq */ = {isa = PBXFileReference; lastKnownFileType = file; name = dice.zorq; path = ../../../../Desktop/dice.zorq; sourceTree = "<group>"; };
 		C9025C501C4D5A3700E40485 /* MyApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyApplication.h; sourceTree = "<group>"; };
 		C9025C511C4D5A3700E40485 /* MyApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyApplication.m; sourceTree = "<group>"; };
 		C9025C561C4D68D500E40485 /* IMZorqImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMZorqImageRep.h; sourceTree = "<group>"; };
 		C9025C571C4D68D500E40485 /* IMZorqImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMZorqImageRep.m; sourceTree = "<group>"; };
+		C9C444811C60A21200B0962C /* dice.zorq */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice.zorq; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +85,9 @@
 		C9025C091C4D361F00E40485 /* CustomImageRep */ = {
 			isa = PBXGroup;
 			children = (
+				C9C444811C60A21200B0962C /* dice.zorq */,
 				C9025C561C4D68D500E40485 /* IMZorqImageRep.h */,
 				C9025C571C4D68D500E40485 /* IMZorqImageRep.m */,
-				C9025C2B1C4D4FB700E40485 /* dice.zorq */,
 				C9025C0A1C4D361F00E40485 /* AppDelegate.h */,
 				C9025C0B1C4D361F00E40485 /* AppDelegate.m */,
 				C9025C501C4D5A3700E40485 /* MyApplication.h */,
@@ -194,8 +194,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C444821C60A21200B0962C /* dice.zorq in Resources */,
 				C9025C111C4D361F00E40485 /* Assets.xcassets in Resources */,
-				C9025C2C1C4D4FB700E40485 /* dice.zorq in Resources */,
 				C9025C141C4D361F00E40485 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +372,7 @@
 				C9025C1A1C4D361F00E40485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9025C281C4D3C4400E40485 /* Build configuration list for PBXNativeTarget "zorqconvert" */ = {
 			isa = XCConfigurationList;
@@ -380,6 +381,7 @@
 				C9025C2A1C4D3C4400E40485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
