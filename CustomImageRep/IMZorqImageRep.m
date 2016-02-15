@@ -24,6 +24,10 @@
 
 @implementation IMZorqImageRep
 
++ (void)load {
+    [NSImageRep registerImageRepClass: [self class]];
+}
+
 + (NSArray<NSString *> *)imageUnfilteredTypes {
     static dispatch_once_t pred;
     static NSArray *types = nil;
